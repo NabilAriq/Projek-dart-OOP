@@ -1,4 +1,4 @@
-import 'package:perpustakaan_251240001641/perpustakaan_251240001641.dart';
+import 'package:kasir_251240001641/kasir_251240001641.dart';
 import 'package:test/test.dart';
 
 void main() {

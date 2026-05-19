@@ -93,8 +93,12 @@ class Order {
       subTotal -= jumlahDiskon;
     }
 
-    print(taxCalculator);
     print(subTotal);
+    double ppn = taxCalculator(subTotal);
+    int total = (subTotal -= ppn).toInt();
+
+    print(ppn);
+    print(total);
   }
 }
 
